@@ -1,3 +1,8 @@
+#### Sharing scheme
+For the fair use, I choose 1/10 as my sample data. And remove the personal information in the texts. So the total text I choose are 494 files.
+
+#### My license
+
 MIT License
 
 Copyright (c) 2019 Spell_checker
