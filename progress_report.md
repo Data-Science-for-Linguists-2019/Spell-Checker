@@ -17,44 +17,12 @@ Terms of use (from the website)
 
 ## Second Progress Report (3/19/19)
 
-For the data-frame, I choose a new ELI-data-frame to replace my old one. In the second report part, I combined answer.csv, student_information.csv and  question.csv to set a ELI data-frame. Because of the fair use, I have to select 1/10 as the sample data; moreover, I have to remove the personal information in the texts. So the total text I choose are 494 files. Then, I do some basic analysis to go through my data. We can find that the data is not distributed well, some texts are really long, some are short. Considering about the questions students were asked, they may answer just in one word. For example, "choose one word that matches the definition here". We may need to set some filter when we choose the data. Here is my [Jupyter notebook](https://github.com/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame.ipynb).
+For the data-frame, I choose a new ELI-data-frame to replace my old one. In the second report part, I combined answer.csv, student_information.csv and  question.csv to set a ELI data-frame. Because of the fair use, I have to select 1/10 as the sample data; moreover, I have to remove the personal information in the texts. So the total text I choose are 492 files. Then, I do some basic analysis to go through my data. We can find that the data is not distributed well, some texts are really long, some are short. Considering about the questions students were asked, they may answer just in one word. For example, "choose one word that matches the definition here". We may need to set some filter when we choose the data. Here is my [Jupyter notebook](https://github.com/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame.ipynb).
 
 For my project target, I am still working on employing spell checker function, and find the way to apply it on ELI students' text.
 
-#### Sharing scheme
-For the fair use, I choose 1/10 as my sample data. And remove the personal information in the texts. So the total text I choose are 494 files.
-
-#### My license
-MIT License
-
-Copyright (c) 2019 Spell_checker
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-
-
-
-
-
-
-
-
 
 ## Third Progress Report (4/9/19)
+In this part, I am focusing on linguistic analysis of the dataset. I separate the analysis into three parts - Lexical diversity, Syntactic complexity and Vocabulary level. I drop the text length analysis because the text length is not distributed well. Some texts are really long and some are short. Because students are asked by different questions, this result is reasonable. At first, I set the text length between 50 to 600 tokens, in case of omitting too much data. Then, I plot the native language and gender distribution chart. From the chart, we can find that most students' native language are Arabic, Korean and Chinese. The data from other native languages may be too small to represent. The reality is that the wild data is not as plentiful as I thought. How about the gender distribution? Fortunately, the gender is distributed well for male - 70 and female - 62. We can still do some basic analysis. Following, the lexical diversity (take TTR as example) shows that Chinese may intend to use more types of words than Korean and Arabic. Female students may be used to utilizing more different words. For syntactic complexity, the sentence average length order is Korean, Arabic and Chinese. Korean intend to make longer sentences. If we set the classification as gender, the difference is not obvious. For vocabulary level, Chinese intend to use longer words. The gender difference in average word length is not obvious. On the other hand, the average vocabulary band order is Korean, Chinese and Arabic. Korean tend to write more sophisticated words. For gender classification, female students tend to write more sophisticated words.  
+
+Let's look at the spell checker part. The spell checker (by Peter Norvig) still has many restriction on data. The performance will be influenced by the dictionary and tokenized words. We need to choose the proper dictionary corresponding to our data. On the other hand, this model may be more suitable to the speaking data which are written as the texts. The data may contains more spelling error than writing materials.
