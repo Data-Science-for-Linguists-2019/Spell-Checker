@@ -6,6 +6,8 @@
 .Spotlight-V100
 Thumbs.db
 desktop.ini
+#------------------ some files not ready
+*.pptx
 #------------------ directories to ignore
 temp/
 data/
