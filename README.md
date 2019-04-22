@@ -8,9 +8,13 @@ Data source: from English Language Institute, University of Pittsburgh [this pla
 
 ## Directory
 
-* [`final_report.md`](final_report.md) is my final report write-up
+* [`final_report.md`](final_report.md) is my final report
 
-* [`ELI_data_frame_part1.ipynb`](ELI_data_frame_part1.ipynb) is part 1 of my code, which focuses on data clean up. Since GitHub mangles section links, here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame_part1.ipynb).
+* [`ELI_data_frame_part1.ipynb`](ELI_data_frame_part1.ipynb) is part 1 of my code, which focuses on data processing. Since GitHub mangles section links, here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame_part1.ipynb).
+
+* [`ELI_part2.ipynb`](ELI_part2.ipynb) is part 2 of my code, which focuses on linguistic analysis. Since GitHub mangles section links, here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb).
+
+* [`Spell checker model`](spell.ipynb) is part 3 of my code, which focuses on spell checker model. Since GitHub mangles section links, here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/spell.ipynb).
 
 * [`data_sample/`](data_sample) folder is the sample of original data.
 
@@ -18,13 +22,5 @@ Data source: from English Language Institute, University of Pittsburgh [this pla
 
 * [`LICENSE.md`](LICENSE.md) contains licensing information.
 
-
-
-
-My Jupyter notebook:
-- Data processing: [ELI_data_frame_part1](https://github.com/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame_part1.ipynb)  
-- Linguistic analysis: [ELI_part2](https://github.com/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb)  
-
-My data: [df_eli_short](https://github.com/Data-Science-for-Linguists-2019/Spell-Checker/tree/master/data_sample)
-
-My spell checker model: [spell.ipynb](https://github.com/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/spell.ipynb)
+## Visitors log
+My Visitors log file can be [found here](https://github.com/Data-Science-for-Linguists-2019/Class-Plaza/blob/master/guestbooks/guestbook_tingwei.md).
