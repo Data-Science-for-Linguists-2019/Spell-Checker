@@ -4,7 +4,7 @@ Ting-Wei Shen, tis50@pitt.edu, Apr 26, 2019
 
 Goal: Design a spell checker to analyze ELI students' essays and give the correction.
 
-Data source: from English Language Institute, University of Pittsburgh [this place](https://github.com/Data-Science-for-Linguists-2019/Spell-Checker/tree/master/data_sample)
+Data source: from English Language Institute, University of Pittsburgh
 
 ## Directory
 
@@ -12,9 +12,9 @@ Data source: from English Language Institute, University of Pittsburgh [this pla
 
 * [`ELI_data_frame_part1.ipynb`](ELI_data_frame_part1.ipynb) is part 1 of my code, which focuses on data processing. Since GitHub mangles section links, here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame_part1.ipynb).
 
-* [`ELI_part2.ipynb`](ELI_part2.ipynb) is part 2 of my code, which focuses on linguistic analysis. Since GitHub mangles section links, here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb).
+* [`ELI_part2.ipynb`](ELI_part2.ipynb) is part 2 of my code, which focuses on linguistic analysis. Here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb).
 
-* [`Spell checker model`](spell.ipynb) is part 3 of my code, which focuses on spell checker model. Since GitHub mangles section links, here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/spell.ipynb).
+* [`Spell checker model`](spell.ipynb) is part 3 of my code, which focuses on spell checker model. Here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/spell.ipynb).
 
 * [`data_sample/`](data_sample) folder is the sample of original data.
 
