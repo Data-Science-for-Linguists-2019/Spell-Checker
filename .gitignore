@@ -8,6 +8,7 @@ Thumbs.db
 desktop.ini
 #------------------ some files not ready or will not alter
 *.pptx
+*.pkl
 #------------------ directories to ignore
 temp/
 data/
