@@ -14,7 +14,7 @@ Data source: from English Language Institute, University of Pittsburgh
 
 * [`ELI_part2.ipynb`](ELI_part2.ipynb) is part 2 of my code, which focuses on linguistic analysis. Here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb).
 
-* [`Spell checker model`](spell.ipynb) is part 3 of my code, which focuses on spell checker model. Here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/spell.ipynb).
+* [`Spell_checker_model`](Spell_checker_model.ipynb) is part 3 of my code, which focuses on spell checker model. Here's the [same notebook through Jupyter's nbviewer](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/spell.ipynb).
 
 * [`data_sample/`](data_sample) folder is the sample of original data.
 
