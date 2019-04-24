@@ -11,7 +11,7 @@ At first, I did not have any idea about the project. I wanted to design a model 
 Then, I gave a shot on the model which was designed by Peter Norvig. [Here is the model](http://norvig.com/spell-correct.html). Thanks to the recommendation from Na-Rae. The Norvig's model, which is interpreted in a simple method on how to design it, gave me a lot of ideas on my project. The algorithm that Norvig's model is used, and the efficiency it represent, reveals a key concept on designing the model. We need to do the trade-off between the performance and the resource. Norvig's model can achieves about 80% to 90% accuracy at a processing speed of at least 10 words per second. Moreover, it does not need lots of resource to process, which is a good idea for my project.
 
 ## 2. Data sourcing
-For the data
+The data can be separated into two parts. One is the main part which is used for analysis from ELI students' essays. The other one ([big.txt](big.txt)) is used for the language model, which is like a dictionary from concatenation of public domain book excerpts from [Project Gutenberg](http://www.gutenberg.org/wiki/Main_Page) and lists of most frequent words from [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists) and the [British National Corpus](http://www.kilgarriff.co.uk/bnc-readme.html). 
 
 
 
