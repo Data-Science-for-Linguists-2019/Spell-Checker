@@ -28,7 +28,7 @@ Note that I am linking to the jupyter nbviewer's rendered view. (Linking to the 
 
 ... Again, make sure to link to [relevant sections of your code](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Inaugural-Address-Project/blob/master/process_data.ipynb#Third-section). Plots can be embedded too, like below. Click the `Raw` button above to see my Markdown source code.
 
-![png](image_files/output_8_0.png)
+![png](image_files/part1_plot1.png)
 
 
 
