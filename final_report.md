@@ -20,7 +20,10 @@ In the data cleanup part, I combined these three csv files into one ELI data-fra
 - student_information.csv
 - question.csv
 
-The shape of data will be like (46239, 6), which contains 46239 texts with 6 attributes. Here is the data-frame. ![png](image_files/part3_plot1.png)
+The shape of data will be like (46239, 6), which contains 46239 texts with 6 attributes.  
+Here is the data-frame:  
+
+![png](image_files/part3_plot1.png)
 
 
  Because of the fair use, I have to select 1/10 as the sample data; moreover, I have to remove the personal information in the texts. So the total text I choose are 492 files. Then, I do some basic analysis to go through my data. We can find that the data is not distributed well, some texts are really long, some are short. Considering about the questions students were asked, they may answer just in one word. For example, "choose one word that matches the definition here". We may need to set some filter when we choose the data. Here is my [Jupyter notebook](https://github.com/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame.ipynb).
