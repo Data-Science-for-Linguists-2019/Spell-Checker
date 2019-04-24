@@ -48,4 +48,4 @@ Note that I am linking to the jupyter nbviewer's rendered view. (Linking to the 
 
 
 ## 5. Conclusion
-Although the result is not as good as I thought at first. I still regard that it is worth to do these priminary trials. In the future, I can try more data from the speaking material rather than writing essays, since we can find more spelling errors from the speaking data. Moreover, the model now is only based on the single word. In the modern business modules now, they can detect bi-gram and give back the better recommendation.
+Although the result is not as good as I thought at first. I still regard that it is worth to do these priminary trials. In the future, I can try more data from the speaking material rather than written essays, since we can find more spelling errors from the speaking data. Moreover, the model now is only based on the single word. In the modern business modules now, they can detect bi-gram and the 時態, then give back the better recommendations. At the same time, it is needed to have more resource to handle the computation. 
