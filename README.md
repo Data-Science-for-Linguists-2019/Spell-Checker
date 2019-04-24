@@ -1,6 +1,6 @@
 # Spell Checker Project
 
-Ting-Wei Shen, tis50@pitt.edu, Apr 26, 2019  
+Ting-Wei Shen, tis50@pitt.edu, April 26, 2019  
 
 Goal: Design a spell checker to analyze ELI students' essays and give the correction.
 
