@@ -26,7 +26,11 @@ Here is the data-frame:
 ![png](image_files/part3_plot1.png)
 
 
- Because of the fair use, I have to select 1/10 as the sample data; moreover, I have to remove the personal information in the texts. So the total text I choose are 492 files. Then, I do some basic analysis to go through my data. We can find that the data is not distributed well, some texts are really long, some are short. Considering about the questions students were asked, they may answer just in one word. For example, "choose one word that matches the definition here". We may need to set some filter when we choose the data. Here is my [Jupyter notebook](https://github.com/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame.ipynb).
+Because of the fair use, I have to select 1/10 as the sample data; moreover, I have to remove the personal information in the texts. So the total text I choose are 492 files. Then, I do some basic analysis to go through my data. I find that the data is not distributed well, some texts are really long, some are short. Considering about the questions students were asked, they may answer just in one word. For example, "choose one word that matches the definition here". We need to set some filter when we choose the data. 
+
+In this case, I narrow down my file in the word counts from 50 to 600. Since there are almost 65% of text files is lower than 65 tokens, after the filtering, there are only 130 text files left. It is not a easy task to balance the privacy and the data I need. The data need more cleaning though.
+
+Here is my [Jupyter notebook](https://github.com/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame.ipynb).
 
 
 ... and here I am, pointing to a [particular section of my code](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/image_files/part1_plot1.png) in my Jupyter Notebook.
