@@ -26,7 +26,11 @@ Here is the data-frame:
 ![png](image_files/part3_plot1.png)
 
 
+<<<<<<< HEAD
 Because of the fair use, I have to select 1/10 as the sample data; moreover, I have to remove the personal information in the texts. So the total text I choose are 492 files. Then, I do some basic analysis to go through my data. I find that the data is not distributed well, some texts are really long, some are short. Considering about the questions students were asked, they may answer just in one word. For example, "choose one word that matches the definition here". We need to set some filter when we choose the data.
+=======
+Because of the fair use, I have to select 1/10 as the sample data; moreover, I have to remove the personal information in the texts. So the total text I choose are 492 files. Then, I do some basic analysis to go through my data. I find that the data is not distributed well, some texts are really long, some are short. Considering about the questions students were asked, they may answer just in one word. For example, "choose one word that matches the definition here". We need to set some filter when we choose the data. 
+>>>>>>> 08c9d554f1d4a3d43cb0dc52953c66c4ce4f796e
 
 In this case, I narrow down my file in the word counts from 50 to 600. Since there are almost 65% of text files is lower than 65 tokens, after the filtering, there are only 130 text files left. It is not a easy task to balance the privacy and the data I need. The data need more cleaning though.
 
@@ -48,4 +52,8 @@ Note that I am linking to the jupyter nbviewer's rendered view. (Linking to the 
 
 
 ## 5. Conclusion
+<<<<<<< HEAD
 Although the result is not as good as I thought at first. I still regard that it is worth to do these preliminary trials. In the future, I can try more data from the speaking material rather than written essays, since people may have more spelling errors in speaking. In the writing essays, people can check spelling errors when they were typing, or before they submit the essays. These data will have higher accuracy, my data also reflects this situation. However, for speaking, people do not have these benefits. The accuracy may decrease at the same time. It is worth to do these kind of searching. Moreover, the model now is only based on the single word. In the modern business modules now, they can detect bi-gram and the 時態, then give back the better recommendations. At the same time, it is needed to have more resource to handle the computation.  
+=======
+Although the result is not as good as I thought at first. I still regard that it is worth to do these priminary trials. In the future, I can try more data from the speaking material rather than written essays, since people may have more spelling errors in speaking. In the writing essays, people can check spelling errors when they were typing, or before they submit the essays. These data will have higher accuracy, my data also reflects this situation. However, for speaking, people do not have these benefits. The accuracy may decrease at the same time. It is worth to do these kind of searching. Moreover, the model now is only based on the single word. In the modern business modules now, they can detect bi-gram and the 時態, then give back the better recommendations. At the same time, it is needed to have more resource to handle the computation. 
+>>>>>>> 08c9d554f1d4a3d43cb0dc52953c66c4ce4f796e
