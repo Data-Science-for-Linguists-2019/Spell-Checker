@@ -14,7 +14,7 @@ Then, I gave a shot on the model which was designed by Peter Norvig. [Here is th
 The data can be separated into two parts. One is the main part which is used for analysis from ELI students' essays. I put some example data [here](data_sample/df_eli_short.csv). The other one ([big.txt](big.txt)) is used for the language model, which is like a dictionary from concatenation of public domain book excerpts from [Project Gutenberg](http://www.gutenberg.org/wiki/Main_Page) and lists of most frequent words from [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists) and the [British National Corpus](http://www.kilgarriff.co.uk/bnc-readme.html).  
 
 ## 3. Data cleanup
-In the data cleanup part, I combined these three csv files into one ELI data-frame.
+In the data cleanup part, I combined these three csv files into one ELI data-frame by choosing separate key indexes.
 
 * answer.csv  
   * student_id, question_id, text
@@ -29,14 +29,13 @@ Here is the data-frame:
 ![png](image_files/part3_plot1.png)
 
 
-Because of the fair use, I have to select 1/10 as the sample data; moreover, I have to remove the personal information in the texts. So I finally choose 492 texts. Then, I do some basic analysis to go through my data. I find that the data is not distributed well, some texts are really long, some are short. Considering about the questions students were asked, they may answer just in one word. For example, "choose one word that matches the definition here". This king of question and answer will add a lot of bias in my analysis, I have to eliminate these.  
+Because of the fair use, I had to select 1/10 as the sample data; moreover, I had to remove the personal information in the texts. So I finally choosed 492 texts. Then, I did some basic analysis to go through my data. I found that the data is not distributed well, some texts are really long, some are short. Considering about the questions students were asked, they may answer just in one word. For example, "choose one word that matches the definition here." This kind of question and answer would add a lot of bias in my analysis, I had to eliminate these bias.
 
-- I need to set some filter when we choose the data.
+- I need to set some filter when I choose the data.
 
-In this case, I narrow down my file in the word counts from 50 to 600. Since there are almost 65% of text files is lower than 65 tokens, after the filtering, there are only 130 text files left. It is not an easy task to balance the privacy and the data I need. The data need more cleaning though.
-
-
-
+In this case, I narrowed down my file in the word counts from 50 to 600. Since there are almost 65% of text files is lower than 65 tokens (about 10% are 1 word texts); after the filtering, there are only 130 texts left. It is not an easy task to balance the privacy and the data I need. If I wanted better analysis result, I needed to examine more original students' essays; however, I did not have that much time and the performance may not increase as much as I expected. I decided to keep going to next parts and completed the prototype of my project.  
+Here is the tokens distribution of my data:  
+![png](image_files/part1_plot1_2.png)
 
 
 
