@@ -34,7 +34,8 @@ Because of the fair use, I had to select 1/10 as the sample data; moreover, I ha
 - I need to set some filter when I choose the data.
 
 In this case, I narrowed down my file in the word counts from 50 to 600. Since there are almost 65% of text files is lower than 65 tokens (about 10% are 1 word texts); after the filtering, there are only 130 texts left. It is not an easy task to balance the privacy and the data I need. If I wanted better analysis result, I needed to examine more original students' essays; however, I did not have that much time and the performance may not increase as much as I expected. I decided to keep going to next parts and completed the prototype of my project.  
-Here is the tokens distribution of my data:  
+- Here is the tokens distribution of my data:
+ 
 ![png](image_files/part1_plot1_2.png)
 
 
