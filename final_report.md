@@ -29,7 +29,11 @@ Here is the data-frame:
 ![png](image_files/part3_plot1.png)
 
 
-Because of the fair use, I had to select 1/10 as the sample data; moreover, I had to remove the personal information in the texts. So I finally choosed 492 texts. Then, I did some basic analysis to go through my data. I found that the data is not distributed well, some texts are really long, some are short. Considering about the questions students were asked, they may answer just in one word. For example, "choose one word that matches the definition here." This kind of question and answer would add a lot of bias in my analysis, I had to eliminate these bias.
+Because of the fair use, I had to select 1/10 as the sample data; moreover, I had to remove the personal information in the texts. So I finally chosen 492 texts. Then, I did some basic analysis to go through my data. I found that the data is not distributed well, some texts are really long, some are short. Considering about the questions students were asked, they may answer just in one word. For example, "choose one word that matches the definition here." This kind of question and answer would add a lot of bias in my analysis, I had to eliminate these bias.
+
+Here is the link to my Jupyter notebook [3. Data cleanup](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame_part1.ipynb#Loading-chosen-data).
+
+
 
 ### 3.1 Text length as token count  
 
@@ -41,6 +45,8 @@ In this case, I narrowed down my file in the word counts from 50 to 600. Since t
 
 ![png](image_files/part1_plot1_2.png)
 
+Here is the link to my Jupyter notebook [3.1 Text length as token count](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame_part1.ipynb#1.-Text-length-as-token-count).
+
 ### 3.2 Value count by native language
 
 - Let's do some data analysis by students' native languages.
@@ -51,16 +57,11 @@ If we took a look at the native languages' distribution, we can easily find that
 
 ![png](image_files/part1_plot2_2.png)
 
+Here is the link to my Jupyter notebook [3.2 Value count by native language](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame_part1.ipynb#2.-Value-count-by-native-language).
 
 
 
 
-
-
-
-
-
-Here is my [Jupyter notebook](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame_part1.ipynb#2.-Value-count-by-native-language).
 
 
 ... and here I am, pointing to a [particular section of my code](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/image_files/part1_plot1.png) in my Jupyter Notebook.
