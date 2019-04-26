@@ -60,7 +60,7 @@ If we took a look at the native languages' distribution, we can easily find that
 
 
 
-Here is my [Jupyter notebook](https://github.com/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame.ipynb).
+Here is my [Jupyter notebook](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_data_frame_part1.ipynb#2.-Value-count-by-native-language).
 
 
 ... and here I am, pointing to a [particular section of my code](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/image_files/part1_plot1.png) in my Jupyter Notebook.
