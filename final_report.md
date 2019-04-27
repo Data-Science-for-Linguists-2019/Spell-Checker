@@ -65,7 +65,7 @@ Here is the link to my Jupyter notebook [3.2 Value count by native language](htt
 ## 4. Analysis
 In this part, I am focusing on linguistic analysis of the dataset. I separate the analysis into three parts - Lexical diversity, Syntactic complexity and Vocabulary level. I drop text length analysis because text length is not distributed well. Some texts are really long and some are short. Because students are asked by different questions, this result is reasonable. At first, I set the text length between 50 to 600 tokens, in case of omitting too much data. Then, I plot the native language and gender distribution chart. From the chart, we can find that most students' native language are Arabic, Korean and Chinese. The data from other native languages is too small to represent. The reality is that the wild data is not as plentiful as I thought. How about the gender distribution? Fortunately, the gender is distributed well for male - 70 texts and female - 62 texts. We can still do some basic analysis.
 
-Here is the link to my Jupyter notebook [3. Select proper data](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb#Select-proper-data).
+Here is the link to my Jupyter notebook [Select proper data](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb#Select-proper-data).
 
 - Here is the value count by native language of my data after filtering (50 to 600 tokens)
 
