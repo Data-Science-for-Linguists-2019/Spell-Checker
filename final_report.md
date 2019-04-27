@@ -65,6 +65,8 @@ Here is the link to my Jupyter notebook [3.2 Value count by native language](htt
 ## 4. Analysis
 In this part, I am focusing on linguistic analysis of the dataset. I separate the analysis into three parts - Lexical diversity, Syntactic complexity and Vocabulary level. I drop text length analysis because text length is not distributed well. Some texts are really long and some are short. Because students are asked by different questions, this result is reasonable. At first, I set the text length between 50 to 600 tokens, in case of omitting too much data. Then, I plot the native language and gender distribution chart. From the chart, we can find that most students' native language are Arabic, Korean and Chinese. The data from other native languages is too small to represent. The reality is that the wild data is not as plentiful as I thought. How about the gender distribution? Fortunately, the gender is distributed well for male - 70 texts and female - 62 texts. We can still do some basic analysis.
 
+Here is the link to my Jupyter notebook [3. Select proper data](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb#Select-proper-data).
+
 - Here is the value count by native language of my data after filtering (50 to 600 tokens)
 
 ![png](image_files/part2_plot1.png)
@@ -74,6 +76,7 @@ In this part, I am focusing on linguistic analysis of the dataset. I separate th
 ![png](image_files/part2_plot2.png)
 
 Following, the lexical diversity (take TTR as example) shows that Chinese may intend to use more types of words than Korean and Arabic. Female students may be used to utilizing more different words.
+The Jupyter notebook for [1. Lexical diversity](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb#1.-Lexical-diversity).
 
 - Here is the lexical diversity chart by native languages:
 
@@ -84,6 +87,7 @@ Following, the lexical diversity (take TTR as example) shows that Chinese may in
 ![png](image_files/part2_plot4.png)
 
 For syntactic complexity, the sentence average length order is Korean, Arabic and Chinese. Korean intend to make longer sentences. If we set the classification by gender, the difference is not obvious.
+The Jupyter notebook for [2. Syntactic complexity](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb#2.-Syntactic-complexity).
 
 - Here is the syntactic complexity chart by native languages:
 
@@ -94,6 +98,7 @@ For syntactic complexity, the sentence average length order is Korean, Arabic an
 ![png](image_files/part2_plot6.png)
 
 For vocabulary level, Chinese intend to use longer words. The gender difference in average word length is not obvious. On the other hand, the average vocabulary band order is Korean, Chinese and Arabic. Korean tend to write more sophisticated words. For gender classification, female students tend to write more sophisticated words.
+The Jupyter notebook for [3. Vocabulary level](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb#3.-Vocabulary-level).
 
 - Here is the average word length chart by native languages:
 
@@ -112,6 +117,7 @@ For vocabulary level, Chinese intend to use longer words. The gender difference 
 ![png](image_files/part2_plot10.png)
 
 Let's look at the spell checker part. The spell checker (by Peter Norvig) still has many restriction on data. The performance will be influenced by the dictionary and tokenized words. We need to choose the proper dictionary corresponding to our data.
+The Jupyter notebook for [Apply spell checker](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Spell-Checker/blob/master/ELI_part2.ipynb#Apply-spell-checker).
 
 - Here are the examples of mis-recommendations:
 
